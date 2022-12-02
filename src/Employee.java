@@ -13,10 +13,7 @@ public class Employee {         // проверить перевод
         this.phone = phone;
         this.age = age;
     }
-    // Ззовні классу немає доступу до  внутрішніх властивостей класу.
-    // При створенні об'єкта заповнюються поля
-    // Для доступу до полей можна добавити Getters
-    /*
+
     public String getName() {
         return name;
     }
@@ -36,6 +33,4 @@ public class Employee {         // проверить перевод
     public int getAge() {
         return age;
     }
-
-     */
 }

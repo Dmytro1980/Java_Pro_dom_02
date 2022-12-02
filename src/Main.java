@@ -7,5 +7,6 @@ public class Main {
         class02.SameName name2 = new class02.SameName();
         Car car = new Car();
         car.start();
+        System.out.println(boss.getAge());
     }
 }
